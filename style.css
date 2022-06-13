@@ -1,0 +1,124 @@
+*{
+    margin: 10px;
+    padding: 10px;
+
+}
+body {
+    min-height: 100vh;
+    background: url("pelis.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+header{
+    
+    font-size: 100px;
+    font-weight: normal;
+    text-align: center;
+    color: rgb(0, 242, 255);
+    background: rgb(230, 5, 5) transparent;
+}
+nav{
+    font-size: 70px;
+    height: 50px;
+    text-align: center;
+    color: rgb(255, 0, 128);
+    background: rgb(230, 5, 5) transparent;
+}
+.imagen_contenido{
+    height: 600px;
+    width: 1100px;
+    float:left;
+    color: rgb(0, 242, 255);
+    background: rgb(230, 5, 5) transparent;
+    margin: 30px 10px;
+    
+}
+
+aside{
+    
+    height: 570px;
+    width:28%;
+    float:right;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    background: rgb(0, 255, 136);
+    margin: 40px 10px;
+}
+#contenedor1{
+    height: 50px;
+    width: 2000px;
+    background: rgb(230, 5, 5) transparent;
+    display:table-cell;
+    vertical-align: middle;
+}
+.boton{
+    display: block;
+    width: 300px;
+    height: 100px;
+    background: rgb(246, 0, 94);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    cursor:pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 10px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+.boton:hover{
+    background: #ccc;
+}
+#ir{
+    display: block;
+    width: 240px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 149, 0);
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin:10px 100px;
+    margin-left: 800px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#volver:hover{
+    background:transparent;
+    border: 2px solid rgb(0, 242, 255);
+    color:rgb(0, 242, 255) ;
+
+}
+#clasifg{
+    width: 10px;
+    height: 10px;
+    background:rgb(200, 0, 255);
+    color:rgb(255, 255, 255) ;
+    margin:340px 100px;
+}
+#clasif{
+    width: 610px;
+    height: 40px;
+    background:rgb(200, 0, 255);
+    color:rgb(255, 255, 255) ;
+    margin:310px 100px;
+    margin-left: 60px;
+    margin-right: 1000px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#lista{
+    background: rgb(13, 0, 255);
+    color:rgb(255, 255, 255);
+    height: 650px;
+    width: 30%;
+    margin: 20px 100px;
+    margin-right: 500px;
+}
+#pelis{
+    margin-right: 5000px;
+}
